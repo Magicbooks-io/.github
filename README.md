@@ -1,5 +1,6 @@
-<h1><b>Magicbooks.io Rewarded Book Preview API</b></h1>
 
+<h1><b>Magicbooks.io Rewarded Book Preview API</b></h1>
+<img src="https://github.com/Magicbooks-io/.github/assets/62707165/b0dc6974-9259-46ef-af77-4cc2fa844e65">
 <h1>MagicBooks API Documentation</h1>
 
   <h2>Introduction</h2>
@@ -122,6 +123,9 @@
 #Analytics Dashboard
 </body>
 </html>
-# .github
 
-https://res.cloudinary.com/wikacy-com/video/upload/v1702717656/user-videos/magicbooks-app-promo_agcvk0.mp4
+
+
+![Untitled design - 2023-11-11T220241 282](https://github.com/Magicbooks-io/.github/assets/62707165/6bacc4d0-157f-4103-87f2-545b627c54e8)
+
+
