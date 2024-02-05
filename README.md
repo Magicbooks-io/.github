@@ -1,10 +1,12 @@
 <h1><b>Magicbooks.io Rewarded Book Preview API</b></h1>
 
+https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e-617476d3c79a
 
-<video style="margin:0px auto;" width="100%" height="auto" muted autoplay playsinline loop
-  src="https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e-617476d3c79a" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+
+
+
 
 
 
