@@ -1,5 +1,13 @@
 <h1><b>Magicbooks.io Rewarded Book Preview API</b></h1>
 
+
+<video width="100%" height="auto" muted autoplay playsinline loop>
+  <source src="https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e-617476d3c79a" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 <p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format (only with music, too).</p>
 
 <p>Yes, Magicbooks are not complicated or technically dazzling but simple. And that is the true power of them. You may not have heard of them, but people are spending hours in the internal app webviews of Facebook, Instagram, and anywhere else they are displayed and enjoyed; and our core group of initial advertisers have realized the book-centric format solves the 'scanning-rather-than-reading' problem and is well on its way to curing the tech-fatigue all people feel and sense—the one which has caused the largest ad networks to resort to criminal 'self-clicking' functions in order to hide from businesses the fact that their method of advertising, where people are reeled in with a false pretense, blocked from the content they wanted to see due to an annoying popup—which also forever sealed a negative association with the name or product on the ad—is dead.</p>
