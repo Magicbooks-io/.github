@@ -43,7 +43,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
         <li><a href="#monetizing-with-rewarded-book-previews">Monetizing with Rewarded Book Previews</a></li>
         <li><a href="#contributing-data">Contributing Data</a>
             <ul>
-                <li><a href="#analytics-dashboard">Analytics Dashboard</a></li>
+                <li><a href="#create-an-app">Create An App</a></li>
                 <li><a href="#session-events">Session Events</a></li>
             </ul>
         </li>
@@ -85,12 +85,12 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     <h3>Creating a Book Session</h3>
     <p>Sample JavaScript code to create a book session:</p>
     <pre>
-        const fetch = require('node-fetch');
+   const fetch = require('node-fetch');
 
-  const appId = 'developerAppId';
+   const appId = 'developerAppId';
         const apiKey = 'developerApiKey';
 
-  fetch(`https://api.magicbooks.io/bookSession/create?appId=${appId}&amp;key=${apiKey}`)
+   fetch(`https://api.magicbooks.io/bookSession/create?appId=${appId}&amp;key=${apiKey}`)
         .then(response =&gt; response.json())
             .then(data =&gt; console.log(data))
             .catch(error =&gt; console.error(error));
