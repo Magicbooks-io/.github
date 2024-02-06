@@ -136,6 +136,21 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
 
   <img src="https://github.com/Magicbooks-io/.github/assets/62707165/e5168989-c7f3-428f-bd8b-88fc505a291e">
 
+  <h2>Setup and Display a Book Feed On Any Site</h2>
+
+  ![scrnli_2_5_2024_9-07-42 PM](https://github.com/Magicbooks-io/.github/assets/62707165/c678a2d2-c731-42c9-be7b-70dd60353b16)
+  ![scrnli_2_5_2024_9-07-11 PM](https://github.com/Magicbooks-io/.github/assets/62707165/e23fdbc2-c9c6-4be5-9ca5-54814994d8eb)
+
+  <p>Simple and unobtrusive promos can be displayed between pages, on pages, or in any slot you or the bookChain create.  Earn commissions on book sales, products, and promote your own clients, music partners, or anything in a manner which enhances focus and is proven to greatly increase roi. Authors can write books and allow readers to enjoy them for free and earn far more than they ever could under the old primitive model of buying and selling, and developers share in a vast new market and sustain a better way for businesses to connect with consumers.<p>
+
+  
+
+https://github.com/Magicbooks-io/.github/assets/62707165/d1f116e8-1a02-4b95-92b3-6921e6d7ea39
+
+
+
+
+
 
 
   
