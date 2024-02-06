@@ -122,13 +122,21 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     <p>Use the <code>sessionEvents</code> endpoint to log various events during the book session, such as book loaded, user interactions, etc.</p>
     <pre>GET https://api.magicbooks.io/bookSession/sessionEvents/[bookSessionId]</pre>
 
-   <h2>Analytics Dashboard</h2>
+   <h2>Create An App</h2>
+
+   <img src="https://github.com/Magicbooks-io/.github/assets/62707165/6bacc4d0-157f-4103-87f2-545b627c54e8">
+
+   <img src="https://github.com/Magicbooks-io/.github/assets/62707165/6bacc4d0-157f-4103-87f2-545b627c54e8">
+   
+   
+
+
 
   <img src="https://github.com/Magicbooks-io/.github/assets/62707165/6bacc4d0-157f-4103-87f2-545b627c54e8">
 
   
 
-https://github.com/Magicbooks-io/.github/assets/62707165/c66718e2-acca-4052-ac59-da63bfa387cf
+  
 
 
 
