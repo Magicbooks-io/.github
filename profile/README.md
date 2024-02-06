@@ -14,7 +14,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
 
 <p>Yes, Magicbooks are not complicated or technically dazzling but simple. And that is the true power of them. You may not have heard of them, but people are spending hours in the internal app webviews of Facebook, Instagram, and anywhere else they are displayed and enjoyed; and our core group of initial advertisers have realized the book-centric format solves the 'scanning-rather-than-reading' problem and is well on its way to curing the tech-fatigue all people feel and sense—the one which has caused the largest ad networks to resort to criminal 'self-clicking' functions in order to hide from businesses the fact that their method of advertising, where people are reeled in with a false pretense, blocked from the content they wanted to see due to an annoying popup—which also forever sealed a negative association with the name or product on the ad—is dead.</p>
 
-<p>And books are on the rise - yes, books. They are valuable to read, but they also aggregate into an ecosystem for digital advertising which overwhelmingly dwarfs the distracted and merely scannable social feed. Books, like abandoned billboards lining the curbs of the information superhighway, are always watched and loved and completely user-driven. And the people and businesses who help to rescue the world from empty and redundant promotion will be household names quite different from the current ones because they will be known to have chosen a decentralized, creator-first economic model over the large and ever-oppressive corporations. And every reader knows that Magicbooks.io does not earn any money from advertising—it all goes to the creators of the content and the developers who help to make Magicbooks as familiar to the world as the old black and white comic strips, where authors and creators do not promote just any business but truly allow others to experience their sincere admiration for a member of their close network—the true human beings running small businesses and generating lifelong consumer loyalty.</p>
+<p>And books are on the rise - yes, books. They are valuable to read, but they also aggregate into an ecosystem for digital advertising which overwhelmingly dwarfs the distracted and merely scannable social feed. Books, like abandoned billboards lining the curbs of the information superhighway, are always watched and loved and completely user-driven. And the people and businesses who help to rescue the world from empty and redundant promotion will be household names quite different from the current ones because they will be known to have chosen a decentralized, creator-first economic model over the large and ever-oppressive corporations. And every reader knows that Magicbooks.io does not earn any money from partner app's advertising -- it all goes to the creators of the content and the developers who help to make Magicbooks as familiar to the world as the old black and white comic strips, where authors and creators do not promote just any business but truly allow others to experience their sincere admiration for a member of their close network—the true human beings running small businesses and generating lifelong consumer loyalty.</p>
 
 <p>On December 1st, the Magicbooks.io Rewarded Book Preview API will go public and bless all developers and bloggers with the much-needed third option for monetizing blogs, apps, and games which will earn them ten times the revenue of the dominant ad networks—with none of the frustration—and the ability to sell ads directly, trade ad-slots as commodities (what do you think you could get for the slots between the chapters of a new Stephen King novel? - and how much will the value go up when the movie comes out or the ROI breaks records?), organize collabs between musical talent and authors and artists, and be a part of a movement to heal our children and people, increase retention, focus, and mental cognizance, and transfer wealth to the people who need it the most—all distributed by an interconnected network of small developers.</p>
 
@@ -43,7 +43,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
         <li><a href="#monetizing-with-rewarded-book-previews">Monetizing with Rewarded Book Previews</a></li>
         <li><a href="#contributing-data">Contributing Data</a>
             <ul>
-                <li><a href="#analytics-dashboard">Analytics Dashboard</a></li>
+                <li><a href="#create-an-app">Create An App</a></li>
                 <li><a href="#session-events">Session Events</a></li>
             </ul>
         </li>
@@ -85,12 +85,12 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     <h3>Creating a Book Session</h3>
     <p>Sample JavaScript code to create a book session:</p>
     <pre>
-        const fetch = require('node-fetch');
+   const fetch = require('node-fetch');
 
-  const appId = 'developerAppId';
+   const appId = 'developerAppId';
         const apiKey = 'developerApiKey';
 
-  fetch(`https://api.magicbooks.io/bookSession/create?appId=${appId}&amp;key=${apiKey}`)
+   fetch(`https://api.magicbooks.io/bookSession/create?appId=${appId}&amp;key=${apiKey}`)
         .then(response =&gt; response.json())
             .then(data =&gt; console.log(data))
             .catch(error =&gt; console.error(error));
@@ -122,9 +122,42 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     <p>Use the <code>sessionEvents</code> endpoint to log various events during the book session, such as book loaded, user interactions, etc.</p>
     <pre>GET https://api.magicbooks.io/bookSession/sessionEvents/[bookSessionId]</pre>
 
-   <h2>Analytics Dashboard</h2>
+   <h2>Create An App</h2>
 
-  <img src="https://github.com/Magicbooks-io/.github/assets/62707165/6bacc4d0-157f-4103-87f2-545b627c54e8">
+   <img src="https://github.com/Magicbooks-io/.github/assets/62707165/6bacc4d0-157f-4103-87f2-545b627c54e8">
+
+   <img src="https://github.com/Magicbooks-io/.github/assets/62707165/91e68215-29a4-424d-b616-9bbb75181764">
+   
+   
+
+
+
+
+
+  <img src="https://github.com/Magicbooks-io/.github/assets/62707165/e5168989-c7f3-428f-bd8b-88fc505a291e">
+
+  <h2>Setup and Display a Book Feed On Any Site</h2>
+
+  ![scrnli_2_5_2024_9-07-42 PM](https://github.com/Magicbooks-io/.github/assets/62707165/c678a2d2-c731-42c9-be7b-70dd60353b16)
+  ![scrnli_2_5_2024_9-07-11 PM](https://github.com/Magicbooks-io/.github/assets/62707165/e23fdbc2-c9c6-4be5-9ca5-54814994d8eb)
+
+  <p>Simple and unobtrusive promos can be displayed between pages, on pages, or in any slot you or the bookChain create.  Earn commissions on book sales, products, and promote your own clients, music partners, or anything in a manner which enhances focus and is proven to greatly increase roi. Authors can write books and allow readers to enjoy them for free and earn far more than they ever could under the old primitive model of buying and selling, and developers share in a vast new market and sustain a better way for businesses to connect with consumers.<p>
+
+  
+
+https://github.com/Magicbooks-io/.github/assets/62707165/d1f116e8-1a02-4b95-92b3-6921e6d7ea39
+
+
+
+
+
+
+
+  
+
+  
+
+
 
 
 
