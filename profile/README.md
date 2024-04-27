@@ -272,13 +272,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/d1f116e8-1a02-4b95-92b3
 
   <h2>Get Involved in Personalization and Segmentation</h2>
 
-  <p>We encourage developers to get involved and unite behind a way to personalize and segment users without jeopardizing their privacy or exposing their identity. For example, if a new user installs a Fantasy Game from a certain sales campaign involving The Game of Thrones Author:</p>
-
-  <p>When an app posts a userId with an object to the <code>bookChain</code> endpoint and lists George RR Martin as a favorite author, MagicBooks.io does not know the identity of that user. It will generate an internal identifier and return that to the app as the user's ephemeral key.</p>
-
-  <p>Any and all data shared with other developers/apps and viewable on the <code>bookChain</code> will use the ephemeral key. Trails from app to sales and ad-displays can be tracked by a collaboration of all contributors but not by any single developer or app.</p>
-
- #Contributing Data
+  #Contributing Data
  
   <p>Developers can contribute to building the analytics dashboard by logging events using the <code>sessionEvents</code> endpoint. This data helps in understanding user preferences and interactions.</p>
 
