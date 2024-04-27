@@ -2,18 +2,15 @@
 
 https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e-617476d3c79a
 
+<h2>Many people agree it is time for a new method of monetizing books -- one more consistent with the digital age.</h2>
+
+<p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format.</p>
+<p>Add music, give developers a primary role in the game, and things can get more and more interesting.</p>
+
+![OXNIR01 (1)](https://github.com/Magicbooks-io/.github/assets/62707165/c3e1beed-6fe5-4b73-a1b7-1719e84a9bad)
 
 
-
-
-
-
-
-
-<p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format in a new and collective way.</p>
-
-
-<p>On April 21st, the Magicbooks.io Rewarded Book Preview API will go public and bless all developers and bloggers with the much-needed third option for monetizing blogs, apps, and games which will earn them ten times the revenue of the dominant ad networks—with none of the frustration—and the ability to sell ads directly, trade ad-slots as commodities, organize collabs between musical talent, authors, artists, and businesses while supporting a movement to heal our children and people, increase retention, focus, and mental cognizance, and transfer wealth to the people who need it the most—all distributed by an interconnected network of small developers.</p>
+<p>We are now rolling out the <b>Magicbooks.io Rewarded Book Preview API</b> to bless all developers and bloggers with the much-needed third option for monetizing blogs, apps, and games which will earn them ten times the revenue of the dominant ad networks—with none of the frustration—and the ability to sell ads directly, trade ad-slots as commodities, organize collabs between musical talent, authors, artists, and businesses while supporting a movement to heal our children and people, increase retention, focus, and mental cognizance, and transfer wealth to the people who need it the most—all distributed by an interconnected network of small developers.</p>
 
 <img src="https://github.com/Magicbooks-io/.github/assets/62707165/b0dc6974-9259-46ef-af77-4cc2fa844e65">
 
