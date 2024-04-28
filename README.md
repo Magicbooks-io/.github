@@ -48,24 +48,49 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     </ol>
 
  <h2>Introduction</h2>
- <p>MagicBooks API allows developers to integrate rewarded book previews into their applications and contribute valuable data to enhance the book-centric way businesses connect with customers.</p>
+ <p>MagicBooks.io API allows developers to integrate rewarded book preview ads into mobile applications and websites, sell and mediate first-party ads, earn for contributing valuable data to the decentralized bookChain,
+  and participate in the development and growth of a new method and channel for online advertising while creating a new way for authors, creators, educators, musicians, and developers to monetize books in the digital age.</p>
 
  <h2>Getting Started</h2>
  <h3>API Endpoint</h3>
- <p>The base API endpoint for creating book sessions is:</p>
- <code>https://api.magicbooks.io/bookSession/create</code>
+ <p>The base API endpoint for all Magicbooks.io api calls is:</p>
+ <code>https://api.magicbooks.io/{endpoint}</code>
 
  <h3>Authentication</h3>
-    <p>To use the API, developers need to include the following parameters in the URL:</p>
+    <p>To use the API, include the following parameters in the URL:</p>
     <ul>
         <li><code>appId</code>: Unique identifier for the developer's application.</li>
         <li><code>key</code>: API key associated with the provided <code>appId</code>.</li>
     </ul>
 
+ <h3>Retreiving A List of Books</h3>
+   <h3>Request</h3>
+   <p>Make a GET request to the below endpoint with the required parameters:</p>
+   <pre>GET https://api.magicbooks.io/getBooks?appId=[appid-string]&amp;key=[apikey-string]</pre>
+
+ <h3>Response</h3>
+    <p>The API will respond with a JSON object containing the following information:</p>
+    <ul>
+    <li><code>books</code>: Array containing published book objects.</li>
+     <br/>
+        <pre>{
+            "id": "BmGUwGXVQlUnBPvAFRe8",
+            "title": "Magicbooks.io For Smarthomes",
+            "author": "Magicbooks4Smarthomes",
+            "coverImage": "https://res.cloudinary.com/wikacy-com/image/upload/v1688345016/book-covers/smacdoubovpvy1srvvhl.jpg"
+        }</pre>
+        <br/>
+        <p>Display the books however you like.  Members can create, sell, and monetise all kinds of templates, interactions, automations, and plugins to extend the value of each book app/channel.</p>
+     
+    
+   <li>Information regarding prior bookSessions, first-party ads, bid-amount, payout amounts, top-performing books, ad-slot-trading, and user-keys(ephemereal) can be configured by each developer by contributing to the bookChain(see documentation in Magicbooks.io for more details)</li>
+   
+   </ul>
+
 <h2>Creating Book Sessions</h2>
     <h3>Request</h3>
-    <p>Make a GET request to the API endpoint with the required parameters:</p>
-    <pre>GET https://api.magicbooks.io/bookSession/create?appId=[theirAppId-string]&amp;key=[theirApiKey]</pre>
+    <p>Add a click-event listener to  each item to trigger e a GET request to the API endpoint with the below parameters:</p>
+    <pre>GET https://api.magicbooks.io/bookSession/create?appId=[appid-string]&amp;key=[apikey-string]&amp;=bookId=[bookId-string]</pre>
 
  <h3>Response</h3>
     <p>The API will respond with a JSON object containing the following information:</p>
@@ -74,9 +99,9 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
         <li><code>bookId</code>, <code>adId</code>, <code>advertId</code>, <code>category</code>, <code>userId</code>: Information about the book session.</li>
         <li><code>loadUrl</code>: URL to load the rewarded book preview.</li>
     </ul>
-
+<p>(see also the Magicbooks-API NPM Package</p>
  <h2>Monetizing with Rewarded Book Previews</h2>
-    <p>Developers can monetize their applications by displaying the rewarded book previews loaded from the provided URL. Users will be rewarded for engaging with these previews, and all session events are logged and made available via the sessionEvents/{sessionId} endpoint as well as a Magicbooks.io Developers Dashboard</p>
+    <p>Developers can monetize applications by displaying the rewarded book previews loaded from the provided URL. Users will be rewarded for engaging with these previews in multiple ways, and all session events are logged and made available via the sessionEvents/{sessionId} endpoint as well as a Magicbooks.io Developers Dashboard</p>
 
  <h2>Examples</h2>
     <h3>Creating a Book Session</h3>
@@ -85,7 +110,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
    const fetch = require('node-fetch');
 
    const appId = 'developerAppId';
-        const apiKey = 'developerApiKey';
+   const apiKey = 'developerApiKey';
 
    fetch(`https://api.magicbooks.io/bookSession/create?appId=${appId}&amp;key=${apiKey}`)
         .then(response =&gt; response.json())
@@ -94,7 +119,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     </pre>
 
   <h2>Developers Selling and Managing Ads</h2>
-    <p>One unique feature of MagicBooks API is that developers can take full control of their advertising strategy. By submitting the <code>advertId</code> and <code>adId</code> parameters, developers can:</p>
+    <p>One unique feature of MagicBooks API is the singular feature which allows developers to take full control of the advertising strategy. By submitting the <code>advertId</code> and <code>adId</code> parameters, developers can:</p>
     <ul>
         <li>Create and sell their own ads directly through the API.</li>
         <li>Generate dynamic ads using the <code>ad/create</code> endpoint.</li>
@@ -103,8 +128,11 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     </ul>
     <p>Developers have the flexibility to:</p>
     <ul>
-        <li>Collect independent payments for their ads.</li>
-        <li>Write their own rules and guidelines governing earnings for contributors to the display and engagement with their ads.</li>
+    <li>Collect independent payments for their ads.</li>
+    
+   <li>Write their own rules and guidelines governing earnings for contributors to the display and engagement with first-party ads.</li>
+
+   <li>Production members can configure their app to provide an advertising client-portal, sell ads, buy and sell ad slots, and much more.</li>
     </ul>
 
   <h2>Get Involved in Personalization and Segmentation</h2>
