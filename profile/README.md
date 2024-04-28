@@ -14,7 +14,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
  Add music and media, create a pivotal role for the great developers of the world, and this project which started as a shot towards the 'unreachable star' gets very interesting. What is outlined here is a quick view of the engine.</p>
 
 
-<p>The Magicbooks.io API hopes to create a vast new income stream for developers and bloggers by making it easy for ordinary people to monetize with rewarded book previews and creating a better way for authors and creators to monetize books and any valuable content.</p>
+<p>The Magicbooks.io API hopes to create a vast new income stream for developers and bloggers by making it easy for ordinary people to monetize with rewarded book previews while creating a better way for authors and creators to monetize books and any valuable content.</p>
 
 <img src="https://github.com/Magicbooks-io/.github/assets/62707165/b0dc6974-9259-46ef-af77-4cc2fa844e65">
 
