@@ -106,9 +106,8 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
  <h2>Examples</h2>
     <h3>Creating a Book Session</h3>
     <p>Sample JavaScript code to create a book session:</p>
-    <pre>
+   <pre>
    const fetch = require('node-fetch');
-
    const appId = 'developerAppId';
    const apiKey = 'developerApiKey';
 
@@ -116,7 +115,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
         .then(response =&gt; response.json())
             .then(data =&gt; console.log(data))
             .catch(error =&gt; console.error(error));
-    </pre>
+   </pre>
 
   <h2>Developers Selling and Managing Ads</h2>
     <p>One unique feature of MagicBooks API is the singular feature which allows developers to take full control of the advertising strategy. By submitting the <code>advertId</code> and <code>adId</code> parameters, developers can:</p>
