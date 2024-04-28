@@ -2,15 +2,18 @@
 
 https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e-617476d3c79a
 
-<h2>Many people agree it is time for a new method of monetizing books -- one more consistent with the digital age.</h2>
-
-<p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format.</p>
-<p>Add music, give developers a primary role in the game, and things can get more and more interesting.</p>
-
-![OXNIR01 (1)](https://github.com/Magicbooks-io/.github/assets/62707165/c3e1beed-6fe5-4b73-a1b7-1719e84a9bad)
 
 
-<p>We are now rolling out the <b>Magicbooks.io Rewarded Book Preview API</b> to bless all developers and bloggers with the much-needed third option for monetizing blogs, apps, and games which will earn them ten times the revenue of the dominant ad networks—with none of the frustration—and the ability to sell ads directly, trade ad-slots as commodities, organize collabs between musical talent, authors, artists, and businesses while supporting a movement to heal our children and people, increase retention, focus, and mental cognizance, and transfer wealth to the people who need it the most—all distributed by an interconnected network of small developers.</p>
+
+
+
+
+
+
+<p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format (add music and it is a theater!).</p>
+
+
+<p>On March 1st, the Magicbooks.io Rewarded Book Preview API will go public and bless all developers and bloggers with the much-needed third option for monetizing blogs, apps, and games which will earn them ten times the revenue of the dominant ad networks—with none of the frustration—and the ability to sell ads directly, trade ad-slots as commodities (what do you think you could get for the slots between the chapters of a new Stephen King novel? - and how much will the value go up when the movie comes out or the ROI breaks records?), organize collabs between musical talent and authors and artists, and be a part of a movement to heal our children and people, increase retention, focus, and mental cognizance, and transfer wealth to the people who need it the most—all distributed by an interconnected network of small developers.</p>
 
 <img src="https://github.com/Magicbooks-io/.github/assets/62707165/b0dc6974-9259-46ef-af77-4cc2fa844e65">
 
@@ -45,24 +48,49 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     </ol>
 
  <h2>Introduction</h2>
- <p>MagicBooks API allows developers to integrate rewarded book previews into their applications and contribute valuable data to enhance the book-centric way businesses connect with customers.</p>
+ <p>MagicBooks.io API allows developers to integrate rewarded book preview ads into mobile applications and websites, sell and mediate first-party ads, earn for contributing valuable data to the decentralized bookChain,
+  and participate in the development and growth of a new method and channel for online advertising while creating a new way for authors, creators, educators, musicians, and developers to monetize books in the digital age.</p>
 
  <h2>Getting Started</h2>
  <h3>API Endpoint</h3>
- <p>The base API endpoint for creating book sessions is:</p>
- <code>https://api.magicbooks.io/bookSession/create</code>
+ <p>The base API endpoint for all Magicbooks.io api calls is:</p>
+ <code>https://api.magicbooks.io/{endpoint}</code>
 
  <h3>Authentication</h3>
-    <p>To use the API, developers need to include the following parameters in the URL:</p>
+    <p>To use the API, include the following parameters in the URL:</p>
     <ul>
         <li><code>appId</code>: Unique identifier for the developer's application.</li>
         <li><code>key</code>: API key associated with the provided <code>appId</code>.</li>
     </ul>
 
+ <h3>Retreiving A List of Books</h3>
+   <h3>Request</h3>
+   <p>Make a GET request to the below endpoint with the required parameters:</p>
+   <pre>GET https://api.magicbooks.io/getBooks?appId=[appid-string]&amp;key=[apikey-string]</pre>
+
+ <h3>Response</h3>
+    <p>The API will respond with a JSON object containing the following information:</p>
+    <ul>
+    <li><code>books</code>: Array containing published book objects.</li>
+     <br/>
+        <pre>{
+            "id": "BmGUwGXVQlUnBPvAFRe8",
+            "title": "Magicbooks.io For Smarthomes",
+            "author": "Magicbooks4Smarthomes",
+            "coverImage": "https://res.cloudinary.com/wikacy-com/image/upload/v1688345016/book-covers/smacdoubovpvy1srvvhl.jpg"
+        }</pre>
+        <br/>
+        <p>Display the books however you like.  Members can create, sell, and monetise all kinds of templates, interactions, automations, and plugins to extend the value of each book app/channel.</p>
+     
+    
+   <li>Information regarding prior bookSessions, first-party ads, bid-amount, payout amounts, top-performing books, ad-slot-trading, and user-keys(ephemereal) can be configured by each developer by contributing to the bookChain(see documentation in Magicbooks.io for more details)</li>
+   
+   </ul>
+
 <h2>Creating Book Sessions</h2>
     <h3>Request</h3>
-    <p>Make a GET request to the API endpoint with the required parameters:</p>
-    <pre>GET https://api.magicbooks.io/bookSession/create?appId=[theirAppId-string]&amp;key=[theirApiKey]</pre>
+    <p>Add a click-event listener to  each item to trigger e a GET request to the API endpoint with the below parameters:</p>
+    <pre>GET https://api.magicbooks.io/bookSession/create?appId=[appid-string]&amp;key=[apikey-string]&amp;=bookId=[bookId-string]</pre>
 
  <h3>Response</h3>
     <p>The API will respond with a JSON object containing the following information:</p>
@@ -71,27 +99,26 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
         <li><code>bookId</code>, <code>adId</code>, <code>advertId</code>, <code>category</code>, <code>userId</code>: Information about the book session.</li>
         <li><code>loadUrl</code>: URL to load the rewarded book preview.</li>
     </ul>
-
+<p>(see also the Magicbooks-API NPM Package</p>
  <h2>Monetizing with Rewarded Book Previews</h2>
-    <p>Developers can monetize their applications by displaying the rewarded book previews loaded from the provided URL. Users will be rewarded for engaging with these previews, and all session events are logged and made available via the sessionEvents/{sessionId} endpoint as well as a Magicbooks.io Developers Dashboard</p>
+    <p>Developers can monetize applications by displaying the rewarded book previews loaded from the provided URL. Users will be rewarded for engaging with these previews in multiple ways, and all session events are logged and made available via the sessionEvents/{sessionId} endpoint as well as a Magicbooks.io Developers Dashboard</p>
 
  <h2>Examples</h2>
     <h3>Creating a Book Session</h3>
     <p>Sample JavaScript code to create a book session:</p>
-    <pre>
+   <pre>
    const fetch = require('node-fetch');
-
    const appId = 'developerAppId';
-        const apiKey = 'developerApiKey';
+   const apiKey = 'developerApiKey';
 
    fetch(`https://api.magicbooks.io/bookSession/create?appId=${appId}&amp;key=${apiKey}`)
         .then(response =&gt; response.json())
             .then(data =&gt; console.log(data))
             .catch(error =&gt; console.error(error));
-    </pre>
+   </pre>
 
   <h2>Developers Selling and Managing Ads</h2>
-    <p>One unique feature of MagicBooks API is that developers can take full control of their advertising strategy. By submitting the <code>advertId</code> and <code>adId</code> parameters, developers can:</p>
+    <p>One unique feature of MagicBooks API is the singular feature which allows developers to take full control of the advertising strategy. By submitting the <code>advertId</code> and <code>adId</code> parameters, developers can:</p>
     <ul>
         <li>Create and sell their own ads directly through the API.</li>
         <li>Generate dynamic ads using the <code>ad/create</code> endpoint.</li>
@@ -100,8 +127,11 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     </ul>
     <p>Developers have the flexibility to:</p>
     <ul>
-        <li>Collect independent payments for their ads.</li>
-        <li>Write their own rules and guidelines governing earnings for contributors to the display and engagement with their ads.</li>
+    <li>Collect independent payments for their ads.</li>
+    
+   <li>Write their own rules and guidelines governing earnings for contributors to the display and engagement with first-party ads.</li>
+
+   <li>Production members can configure their app to provide an advertising client-portal, sell ads, buy and sell ad slots, and much more.</li>
     </ul>
 
   <h2>Get Involved in Personalization and Segmentation</h2>
@@ -272,7 +302,13 @@ https://github.com/Magicbooks-io/.github/assets/62707165/d1f116e8-1a02-4b95-92b3
 
   <h2>Get Involved in Personalization and Segmentation</h2>
 
-  #Contributing Data
+  <p>We encourage developers to get involved and unite behind a way to personalize and segment users without jeopardizing their privacy or exposing their identity. For example, if a new user installs a Fantasy Game from a certain sales campaign involving The Game of Thrones Author:</p>
+
+  <p>When an app posts a userId with an object to the <code>bookChain</code> endpoint and lists George RR Martin as a favorite author, MagicBooks.io does not know the identity of that user. It will generate an internal identifier and return that to the app as the user's ephemeral key.</p>
+
+  <p>Any and all data shared with other developers/apps and viewable on the <code>bookChain</code> will use the ephemeral key. Trails from app to sales and ad-displays can be tracked by a collaboration of all contributors but not by any single developer or app.</p>
+
+ #Contributing Data
  
   <p>Developers can contribute to building the analytics dashboard by logging events using the <code>sessionEvents</code> endpoint. This data helps in understanding user preferences and interactions.</p>
 
@@ -289,4 +325,15 @@ https://github.com/Magicbooks-io/.github/assets/62707165/d1f116e8-1a02-4b95-92b3
 
 ![Untitled design - 2023-11-11T220241 282](https://github.com/Magicbooks-io/.github/assets/62707165/6bacc4d0-157f-4103-87f2-545b627c54e8)
 -->
+<p>Therd Party Apps/Websites</p>
+<br/>
+
+![Huawei-P30-PRO-localhost (6)](https://github.com/Magicbooks-io/.github/assets/62707165/ef14ca71-09c1-4448-a74a-f31896aa9313)
+<br/>
+
+![Huawei-P30-PRO-localhost (7)](https://github.com/Magicbooks-io/.github/assets/62707165/48463166-6604-402d-8e75-1fe95684c897)
+
+
+
+
 
