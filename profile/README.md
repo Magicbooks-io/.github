@@ -13,7 +13,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
 <p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format (add music and it is a theater!).</p>
 
 
-<p>On March 1st, the Magicbooks.io Rewarded Book Preview API will go public and bless all developers and bloggers with the much-needed third option for monetizing blogs, apps, and games which will earn them ten times the revenue of the dominant ad networks—with none of the frustration—and the ability to sell ads directly, trade ad-slots as commodities (what do you think you could get for the slots between the chapters of a new Stephen King novel? - and how much will the value go up when the movie comes out or the ROI breaks records?), organize collabs between musical talent and authors and artists, and be a part of a movement to heal our children and people, increase retention, focus, and mental cognizance, and transfer wealth to the people who need it the most—all distributed by an interconnected network of small developers.</p>
+<p>The Magicbooks.io API hopes to create a vast new income stream for developers and bloggers by making it easy for ordinary people to monetize with rewarded book previews.</p>
 
 <img src="https://github.com/Magicbooks-io/.github/assets/62707165/b0dc6974-9259-46ef-af77-4cc2fa844e65">
 
