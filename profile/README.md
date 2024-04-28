@@ -10,7 +10,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
 
 
 
-<p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format (add music and it is a theater!).</p>
+<p>Something magical happens when humans are rescued from the endless scrolling feeds of social media and brought into the simple and ancient book-like format.  Add music and multimedia, create a pivotal role for the great developer of the world, and it this project which started as a shot to the unreachable star gets very interesting.</p>
 
 
 <p>The Magicbooks.io API hopes to create a vast new income stream for developers and bloggers by making it easy for ordinary people to monetize with rewarded book previews.</p>
