@@ -48,8 +48,20 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
     </ol>
 
  <h2>Introduction</h2>
- <p>MagicBooks.io API allows developers to integrate rewarded book preview ads into mobile applications and websites, sell and mediate first-party ads, earn for contributing valuable data to the decentralized bookChain,
-  and participate in the development and growth of a new method and channel for online advertising while creating a new way for authors, creators, educators, musicians, and developers to monetize books in the digital age.</p>
+ <p>MagicBooks.io API allows game and app developers, bloggers, and website owners to integrate rewarded book preview ads into mobile applications and websites.</p>
+  
+ </p>Rewarded Book Preview Ads is a new category of rewarded ad format which includes multiple goal-oriented delivery-methods and strategies.</p>
+ <p>For example:</p>
+ <ul>
+  <li>1. Authors can monetize digital books by allowing readers to read a preview, then direct the reader to purchase a book or allow them to continue reading in exchange for viewing a relavent and data-driven advertisement.  Advertisers purchase ad slots, pay for each verified engagement, can opt into paying commissions for sales and/or elect custom strategies based on the advertising goals. The author or creator of the magicbook earns 100% of this direct ad-revenue and can elect to share said revenue with third-party developers who display the magicbook and ads, contribute ephemereal data to the book chain to improve targeting, and enhance engagement and ad-displays through skilled ux design and creativity.</li>
+  
+  <p>Note: Our studies show authors and creators can viably earn many times the amount they would for a book under the primitive model of only buying and selling books; and developers can earn many-times more than with adsense or comparable global ad-networks, while continuing to utilize any ad-server with the freedom all developers should enjoy.</p>
+ 
+ <li>2: Businesses can create product catalogs, whitepapers, and any content-oriented marketing, setting per click bids and real-time header bidding.</li>
+ 
+ <li>3:Developers can sell and mediate first-party ads, earn for contributing valuable data to the decentralized bookChain,
+  and participate in the development and growth of a new method and channel for online advertising while creating 
+  a source of wealth controlled by ordinary people, authors, creators, educators, musicians, and developers, free from harch censorship and poised to attract a new generation of small businesses embracing the creator-driven online ad market.</p>
 
  <h2>Getting Started</h2>
  <h3>API Endpoint</h3>
