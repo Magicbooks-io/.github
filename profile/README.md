@@ -1,4 +1,7 @@
 <h1><b>Magicbooks.io Rewarded Book Preview API</b></h1>
+<a href="https://www.npmjs.com/package/magicbooks-api">NPM Package - Wrapper Around API</a><br/>
+<a href="https://bookboostpro.magicbooks.io/books.html">Demo One</a><br/>
+<a href="https://apidemo.magicbooks.io/">Demo Two(using npm package)</a><br/>
 
 https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e-617476d3c79a
 
