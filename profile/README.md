@@ -31,6 +31,7 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#getting-started">Getting Started</a>
             <ul>
+                <li><a href="#install-via-npm">Install Via NPM</a></li>
                 <li><a href="#api-endpoint">API Endpoint</a></li>
                 <li><a href="#authentication">Authentication</a></li>
             </ul>
@@ -65,9 +66,12 @@ https://github.com/Magicbooks-io/.github/assets/62707165/85a64062-2796-44a3-8e4e
  
  <li>3:Developers can sell and mediate first-party ads, earn for contributing valuable data to the decentralized bookChain,
   and participate in the development and growth of a new method and channel for online advertising while creating 
-  a source of wealth controlled by ordinary people, authors, creators, educators, musicians, and developers, free from harch censorship and poised to attract a new generation of small businesses embracing the creator-driven online ad market.</p>
+  a source of wealth controlled by ordinary people, authors, creators, educators, musicians, and developers, free from harsh censorship and poised to attract a new generation of small businesses embracing the creator-driven online ad market.</p>
 
  <h2>Getting Started</h2>
+ <h3>Install Via NPM</h3>
+ <p>We created a simple wrapper around the API you can install via NPM:</p> 
+ <code>npm install magicbooks-api</code>
  <h3>API Endpoint</h3>
  <p>The base API endpoint for all Magicbooks.io api calls is:</p>
  <code>https://api.magicbooks.io/{endpoint}</code>
