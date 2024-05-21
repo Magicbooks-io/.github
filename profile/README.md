@@ -193,6 +193,8 @@ https://github.com/Magicbooks-io/.github/assets/62707165/d1f116e8-1a02-4b95-92b3
 
 ![Huawei-P30-PRO-localhost (7)](https://github.com/Magicbooks-io/.github/assets/62707165/48463166-6604-402d-8e75-1fe95684c897)
 
+The trail of <a href="https://magicbooks.io/m-page.Page7.html?theme=dark&bookId=tbGRrhhWNXaM9vBReW5p&postType=book">#DonQuixote</a>
+
 
 
 
